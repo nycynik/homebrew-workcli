@@ -1,4 +1,4 @@
-class workcli < Formula
+class Workcli < Formula
   desc "Simple tool that helps automate developer workflows from the command line in Linux and OSX"
   homepage "https://github.com/nycynik/workcli"
   url "https://github.com/you/mytool/archive/refs/tags/v0.1.1.tar.gz"
