@@ -7,8 +7,8 @@ class Workcli < Formula
 
   def install
     libexec.install Dir["lib/*"]
-    bin.install "bin/workcli"
-    (bin/"workcli").write_env_script libexec/"../bin/workcli", WORKCLI_LIBEXEC: libexec
+    libexec.install "bin/workcli"
+    (bin/"workcli").write_env_script libexec/"workcli", WORKCLI_LIBEXEC: libexec
   end
 
   test do
