@@ -1,8 +1,8 @@
 class Workcli < Formula
   desc "Simple tool that helps automate developer workflows from the command line in Linux and OSX"
   homepage "https://github.com/nycynik/workcli"
-  url "https://github.com/nycynik/workcli/archive/refs/tags/v0.1.7.tar.gz"
-  sha256 "b23b6f651a270ff207712fbfdd23fd1d27f34a0b80d3f8ab95ef218d4c24b402"
+  url "https://github.com/nycynik/workcli/archive/refs/tags/v0.1.8.tar.gz"
+  sha256 "1f472a5166a17d211cb0969fc065d862ebb3c55bc33cc28fe320720b8269bb5d"
   license "MIT"
 
   def install
